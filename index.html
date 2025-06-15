@@ -83,7 +83,8 @@
     <!-- Popup -->
     <div id="popup" class="popup">
         <h3>Congratulations! You have won:</h3>
-        <img id="popupImage" src="" alt="Winning Image" style="width: 100px; height: 100px; margin-bottom: 10px;">
+        <img id="popupImage" src="imgs/img5.jpg" alt="Winning Image" style="width: 100px; height: 100px; margin-bottom: 10px;">
+        <p style="font-size: 1.5rem; font-weight: bold; color: #333;">5000 SAR</p>
         <div class="whatsapp-icon" onclick="window.location.href='https://wa.me/+966583073854'">
             <i class="fa-brands fa-whatsapp"></i>
 
@@ -122,8 +123,8 @@
         });
 
         function showPopup() {
-            // Always show img4 as the winner
-            const winningImage = document.getElementById('label4').querySelector('img').src;
+            // Always show img5 as the winner
+            const winningImage = document.getElementById('label5').querySelector('img').src;
             document.getElementById('popupImage').src = winningImage;
             document.getElementById('popup').style.display = 'block';
             document.getElementById('lightingEffect').style.display = 'block';
